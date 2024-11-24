@@ -10,7 +10,7 @@
  */
 
 
-namespace ricgrangeia\yii2ExtraHelpers\Helpers;
+namespace ricgrangeia\yii2ExtraHelpers;
 
 use yii\base\Exception;
 use yii\helpers\HtmlPurifier;
