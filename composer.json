@@ -1,0 +1,43 @@
+{
+  "name": "ricgrangeia/yii2-extra-helpers",
+  "description": "Helpers Extra for Yii2",
+  "homepage": "https://github.com/ricgrangeia/yii2-extra-helpers",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo Grangeia",
+      "email": "ricardograngeia@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.1",
+    "yidas/yii2-bower-asset": "dev-master",
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "ricgrangeia\\yii2ExtraHelpers\\": "/src"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ricgrangeia/yii2-bower-asset"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
